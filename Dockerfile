@@ -1,6 +1,6 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
-MAINTAINER <Sumita Khan>
+LABEL maintainer="Sumita Khan"
 
 COPY target/products_api.jar  /usr/app/
 
